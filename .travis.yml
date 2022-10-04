@@ -27,4 +27,4 @@ after_success:
 - docker push hadeymike/udagram-api-user:v1
 - docker push hadeymike/udagram-frontend:v1
 - docker push hadeymike/reverseproxy:v1
-# Do similar for other three images
+# Do similar for other three images done
