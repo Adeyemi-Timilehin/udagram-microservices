@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+  name: env-configmap
+  namespace: default
+data:
+  POSTGRES_HOST: timik.ccitylhakind.us-west-2.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_BUCKET: udagram-745635220765-dev
+  AWS_REGION: us-west-2
+  AWS_PROFILE: default
+  JWT_SECRET: testing
+  URL: http://localhost:8100 
