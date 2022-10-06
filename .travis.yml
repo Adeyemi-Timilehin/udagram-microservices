@@ -17,6 +17,7 @@ script:
 - docker tag udagram-api-feed hadeymike/udagram-api-feed:v1
 - docker tag udagram-api-user hadeymike/udagram-api-user:v1
 - docker tag udagram-frontend hadeymike/udagram-frontend:v3
+
 - docker tag reverseproxy  hadeymike/reverseproxy:v1
 # Do similar for other three images
 # Push
@@ -27,5 +28,6 @@ after_success:
 - docker push hadeymike/udagram-api-feed:v1
 - docker push hadeymike/udagram-api-user:v1
 - docker push hadeymike/udagram-frontend:v3
+
 - docker push hadeymike/reverseproxy:v1
 # Do similar for other three images done
